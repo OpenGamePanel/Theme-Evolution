@@ -9,6 +9,10 @@
 }
 .monitorbutton span {
         display: block;
+        line-height: 13px;
+}
+.monitorbutton.size {
+        line-height: 80px;
 }
 .monitorbutton img {
         height: 46px;
