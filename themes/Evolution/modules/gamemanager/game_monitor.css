@@ -1,10 +1,27 @@
 .monitorbutton{
-	display:inline;
-	width:auto !important;
+        display: inline-block;
+        background-color: #373737;
+        text-align: center;
+        width: 150px;
+        height: 90px;
+        margin: 1%;
+        float: left;
 }
-
-.monitorbutton tr{
-	background-color:#ffffff;
+.monitorbutton span {
+        display: block;
+        line-height: 13px;
+}
+.monitorbutton.size {
+        line-height: 80px;
+}
+.monitorbutton img {
+        height: 46px;
+        margin: 5px;
+}
+.monitorbutton:hover {
+        background-color: #379BB9;
+        text-decoration: none;
+	cursor: pointer;
 }
 
 #refresh-manual a {
@@ -54,30 +71,6 @@ tr.maintr.odd td.collapsible {
 tr.maintr.even td.collapsible {
 	padding-top:9px !important;	
 	padding-bottom:10px !important;
-}
-
-.monitorbutton tr td{
-	cursor:pointer;
-	color:#000000;
-	background-color:none;
-	transition:background-color 0.5s;
-	-webkit-transition:background-color 0.5s;
-	border:none;
-	width:145px !important;
-	height:72px !important;
-	background-color:#E8E8E8 !important;
-	vertical-align:middle !important;
-}
-
-.monitorbutton tr td:hover {
-	background-color:#379BB9;
-	transition:background-color 0.5s;
-	-webkit-transition:background-color 0.5s;
-	cursor:pointer;
-}
-
-.monitorbutton tr td a:hover {
-	text-decoration:none;
 }
 
 .ts3-del-virtual.center {
